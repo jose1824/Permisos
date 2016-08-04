@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Permisos</string>
+    <string name="obtener_mensajes">Obtener mensajes</string>
 </resources>
