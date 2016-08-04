@@ -14,8 +14,9 @@
         android:id="@+id/main_btn_sms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        style="?attr/buttonBarStyle"
+        style="?attr/buttonBarButtonStyle"
         android:elevation="0dp"
+        android:layout_gravity="center_horizontal"
         android:text="Obneter mensajes"/>
 
 
