@@ -14,13 +14,23 @@
         android:id="@+id/main_btn_sms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/obtener_mensajes"/>
+        style="?attr/buttonBarStyle"
+        android:elevation="0dp"
+        android:text="Obneter mensajes"/>
 
-    <TextView
-        android:id="@+id/main_txt_sms"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Hello World!" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/main_txt_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="Hello World!" />
+
+    </ScrollView>
 
 </LinearLayout>
